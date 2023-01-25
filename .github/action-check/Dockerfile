@@ -4,4 +4,5 @@ LABEL "com.github.actions.name"="Check"
 LABEL "com.github.actions.description"="Check application code"
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
