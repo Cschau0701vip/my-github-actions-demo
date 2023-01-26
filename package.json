@@ -1,0 +1,26 @@
+{
+  "name": "my-github-actions-demo",
+  "version": "1.0.0",
+  "description": "my-github-actions-demo",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cschau0701vip/my-github-actions-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cschau0701vip/my-github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/Cschau0701vip/my-github-actions-demo#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "axios": "^1.2.4"
+  }
+}
