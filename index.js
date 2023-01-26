@@ -1,5 +1,5 @@
 const core = require("@actions/core");
-const fs = require("fs/promises");
+const fs = require('fs').promises;
 const axios = require("axios");
 
 const category = core.getInput('category') || 'inspire';
