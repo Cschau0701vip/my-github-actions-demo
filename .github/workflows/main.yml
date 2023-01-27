@@ -1,7 +1,7 @@
-name: Update README with QOTD
+name: Update README File with Quote Of The Day
 on:
-  [push]
-  #workflow_dispatch: # triggers manually
+  #[push]
+  workflow_dispatch: # triggers manually
   #schedule:
   #- cron: "0 12 * * *" # triggers every midnight
 
