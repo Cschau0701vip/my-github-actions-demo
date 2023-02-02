@@ -21,7 +21,7 @@ jobs:
         npm install @actions/core axios
 
     - name: Run QOTD action
-      uses: ./ # Uses an action in the root directory
+      uses: ./action # Uses an action in the root directory
       with:
          category: 'life'
     - name: Commit and push update
